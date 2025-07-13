@@ -1,0 +1,9 @@
+{
+    "name": "Briefly",
+    "description": "A chrome extension to generate briefs from your meetings",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "index.html"
+    }
+  }
