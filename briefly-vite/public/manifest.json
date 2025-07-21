@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Briefly",
+  "version": "1.0.0",
+  "description": "A browser extension built with Vite and React",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permission": ["tabCapture", "microphone"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
